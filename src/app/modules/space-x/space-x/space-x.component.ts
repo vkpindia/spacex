@@ -39,6 +39,13 @@ export class SpaceXComponent implements OnInit {
     this.getSpaceXData();
   }
 
+  /**
+   * @description Method for making query param for api
+   * @author Virendra Pandey
+   * @date 2020-09-27
+   * @returns {void}
+   * @memberof SpaceXComponent
+   */
   public setQueryParams(type: string, value: any): void {
     this.selectedFilter = value;
     this.selectedFilterType = type;
